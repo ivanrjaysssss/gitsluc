@@ -1,0 +1,99 @@
+<div data-page="sortbysy" class="page">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="center" id="student_fullname"></div>
+      <div class="right"><a href="#" class="link icon-only open-popover" data-popover=".popover-studentsidemenu"><i class="icon icon-bars"></i></a></div>
+    </div>
+  </div>
+  <form data-search-list=".search-here" data-search-in=".item-title" class="searchbar searchbar-init">
+    <div class="searchbar-input">
+      <input type="search" placeholder="Search Subject"/><a href="#" class="searchbar-clear"></a>
+    </div>
+  </form>
+  <div class="searchbar-overlay"></div>
+  
+  <div class="page-content">
+	
+    <div class="list-block searchbar-not-found">
+      <ul>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Subject not found</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+	
+	<div class="content-block">
+		<div class="card">
+			<div id="display_studprofile"></div>
+		</div>
+    </div>
+	
+	
+	
+	<!----------------------------------------DISPLAY GRADES---------------------------------------------->
+	
+	<div class="right">
+		<div class="content-block">
+		<a href="#" class="button button-fill color-green open-popover" data-popover=".popover-studentgradesort">SORT</a>
+		</div>
+	</div>
+    <div class="list-block media-list search-here searchbar-found">
+      <ul>
+		<li class="item-divider">SY 2016-2017</li>
+			<div id="displaygrades1617"></div>
+		<li class="item-divider">SY 2017-2018</li>
+			<div id="displaygrades1718"></div>
+		<li class="item-divider">SY 2018-2019</li>
+			<div id="displaygrades1819"></div>
+	  </ul>
+    </div>
+	
+	
+	
+	
+	
+	<!----------------------------------------------LEGEND------------------------------------------->
+	<div class="content-block">
+	<div class="card">
+      <div class="card-content"> 
+        <div class="card-content-inner">
+		
+			<p>
+			<strong>Legend:</strong><br><br>
+			<strong>98-100 </strong> (<span class="color-green">1.00</span>)&nbsp &nbsp &nbsp &nbsp &nbsp
+			<strong>80-82 </strong> (<span class="color-blue">2.50</span>)<br>
+			<strong>95-97 </strong> (<span class="color-green">1.25</span>)&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<strong>77-79 </strong> (<span class="color-blue">2.75</span>)<br>
+			<strong>92-94 </strong> (<span class="color-green">1.50</span>)&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<strong>75-76 </strong> (<span class="color-orange">3.00</span>)<br>
+			<strong>89-91 </strong> (<span class="color-green">1.75</span>)&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<strong>Failed </strong> (<span class="color-red">5.00</span>)<br>
+			<strong>86-88 </strong> (<span class="color-blue">2.00</span>)&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<strong>Incomplete </strong> (<span class="color-gray">INC</span>)<br>
+			<strong>83-85 </strong> (<span class="color-blue">2.25</span>)
+			</p>
+			
+		</div>
+      </div>
+    </div>
+    </div>
+	
+	
+	
+	<input type="hidden" id="student_id"></input>
+	
+	
+	
+	
+	
+	<!--<div class="list-block search-here searchbar-found media-list">
+    <ul>
+		<div id="displayenrolled"></div>
+
+	</ul>
+	</div>-->
+	
+  </div>
+</div>
